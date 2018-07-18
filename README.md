@@ -1,3 +1,7 @@
+# Credit To 
+Soroush Mirzaei <soroush.mirzaei@gmail.com> who started this. I am expanding upon his already very good work under the MIT license.
+https://github.com/smirzaei/currency-formatter#readme
+
 # Currency Formatter
 
 [![Build Status](https://travis-ci.org/smirzaei/currency-formatter.svg)](https://travis-ci.org/smirzaei/currency-formatter)
