@@ -1,5 +1,5 @@
 {
-  "name": "currency",
+  "name": "@geekify/currency-formatter",
   "version": "1.0.0",
   "description": "A simple Javascript utility that helps you to display currency properly",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dsappet/currency.git"
+    "url": "git+https://github.com/dsappet/-geekify-currency-formatter.git"
   },
   "keywords": [
     "format",
@@ -18,9 +18,9 @@
   "author": "Douglas Sappet <dsappet@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dsappet/currency/issues"
+    "url": "https://github.com/dsappet/-geekify-currency-formatter/issues"
   },
-  "homepage": "https://github.com/dasppet/currency-#readme",
+  "homepage": "https://github.com/dasppet/-geekify-currency-formatter-#readme",
   "devDependencies": {
     "chai": "^3.3.0",
     "mocha": "^2.3.3"

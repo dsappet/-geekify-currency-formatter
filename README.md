@@ -12,7 +12,7 @@ Install
 =
 
 ```bash
-npm install currency-formatter --save
+npm install @geekify/currency-formatter --save
 ```
 
 Basic Usage
@@ -21,7 +21,7 @@ Basic Usage
 By specifying the currency code
 
 ```js
-var currencyFormatter = require('currency-formatter');
+var currencyFormatter = require('@geekify/currency-formatter');
 
 currencyFormatter.format(1000000, { code: 'USD' });
 // => '$1,000,000.00'
@@ -35,7 +35,7 @@ currencyFormatter.format(1000000, { code: 'EUR' });
 
 Or by specifying the locale
 ```js
-var currencyFormatter = require('currency-formatter');
+var currencyFormatter = require('@geekify/currency-formatter');
 
 currencyFormatter.format(1000000, { locale: 'en-US' });
 // => '$1,000,000.00'
@@ -56,7 +56,7 @@ currencyFormatter.format(1000000, { locale: 'nl-NL' });
 You can also get the currency information.
 
 ```JAVASCRIPT
-var currencyFormatter = require('currency-formatter');
+var currencyFormatter = require('@geekify/currency-formatter');
 
 currencyFormatter.findCurrency('USD');
 // returns:
@@ -107,7 +107,7 @@ Advanced Usage
 Currency Formatter uses [accounting](https://github.com/openexchangerates/accounting.js) library under the hood, and you can use its options to override the default behavior.
 
 ```JAVASCRIPT
-var currencyFormatter = require('currency-formatter');
+var currencyFormatter = require('@geekify/currency-formatter');
 currencyFormatter.format(1000000, {
   symbol: '@',
   decimal: '*',
@@ -133,16 +133,16 @@ currencyFormatter.format(-10, {
 You could also get a list of all the currencies here using one of the following:
 
 ```js
-var currencies = require('currency-formatter/currencies');
+var currencies = require('@geekify/currency-formatter/currencies');
 // OR
-var currencyFormatter = require('currency-formatter');
+var currencyFormatter = require('@geekify/currency-formatter');
 var currencies = currencyFormatter.currencies;
 ```
 
 Or the currencies in hashmap shape:
 
 ```js
-var currencies = require('currency-formatter/currencies.json');
+var currencies = require('@geekify/currency-formatter/currencies.json');
 // Result:
 // {
 //  "USD": {
@@ -160,4 +160,4 @@ var currencies = require('currency-formatter/currencies.json');
 
 License
 =
-[MIT](https://github.com/smirzaei/currency-formatter/blob/master/LICENSE)
+[MIT](https://github.com/dsappet/-geekify-currency-formatter/blob/master/LICENSE)
