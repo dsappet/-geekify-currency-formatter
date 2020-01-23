@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/dsappet/-geekify-currency-formatter/issues"
   },
-  "homepage": "https://github.com/dasppet/-geekify-currency-formatter-#readme",
+  "homepage": "https://github.com/dsappet/-geekify-currency-formatter-#readme",
   "devDependencies": {
     "chai": "^3.3.0",
     "mocha": "^2.3.3"
